@@ -66,7 +66,7 @@ def _aceptar_cookies(driver: webdriver.Chrome, timeout: int = 5) -> None:
                     EC.element_to_be_clickable((By.XPATH, patron))
                 )
                 boton.click()
-                print(f"✅ Cookies aceptadas con patrón: {patron}")
+                print(f"✅ Cookies aceptadas conD patrón: {patron}")
                 return
             except:
                 continue
